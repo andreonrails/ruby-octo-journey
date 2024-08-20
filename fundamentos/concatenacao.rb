@@ -28,8 +28,22 @@ puts "Informe o nome do filme: "
 
 
 #string multilinha
-puts <<~MULTILNE_STRING
+
+=begin 
+Multiline Syntaxes 
+here doc, <<-HERE
+here doc, <<~HERE
+percent string, %q()
+=end
+# multiline = <<~HELLO
+#  Será que dessa forma funciona o multilne de string no ruby?
+
+# HELLO
+# puts multiline
+
+Multiline = <<~HERE
   Nome do filme: #{name}
   Ano de lançamento: #{yearLaunch}
   Preço do filme: #{price}
-MULTILINE_STRING
+HERE
+puts Multiline
