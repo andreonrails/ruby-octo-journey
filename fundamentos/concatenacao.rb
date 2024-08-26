@@ -47,3 +47,4 @@ Multiline = <<~HERE
   Preço do filme: #{price}
 HERE
 puts Multiline
+
