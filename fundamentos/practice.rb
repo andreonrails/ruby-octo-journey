@@ -12,8 +12,8 @@ print "Hello World\n"
 # concatenação de variaveis
 
 name = "André"
-ano = 1991
-preco = 1991.00
+ano = 1790
+preco = 1491.00
 
 puts name, ano, preco
 puts name.class, ano.class, preco.class
