@@ -1,0 +1,9 @@
+Anotações Ruby
+
+Comentários em Ruby podem ser feitos por hashtag # 
+Se for comentários multilinhas a tag é =begin =end
+
+No Ruby não é necessário declarar o tipo da variável, por ser uma linguagem fortemente tipada e dinâmica 
+o valor inserido na função independente do tipo vai ser checado em tempo de execução (run time)
+
+gets tem o objetivo de ler o dado
