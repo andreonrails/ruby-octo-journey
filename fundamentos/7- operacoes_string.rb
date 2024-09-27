@@ -9,11 +9,12 @@ Text
 puts description2
 
 # 1 - Indexação 
+# A indexação por meio dela é possível selecionar partes de uma string
 puts description[0]
 puts description[-1]
 puts description[0,4] #usando a vírgula o 4 é excluído
 puts description[0..4] # já com o .. é incluso o 4
-puts description.slice(0)
+puts description.slice(0) # o slice também funciona da mesma forma
 puts description.slice(0,4)
 
 # 2 - Quebrando uma string

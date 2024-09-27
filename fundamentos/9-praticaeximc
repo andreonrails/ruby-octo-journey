@@ -1,0 +1,42 @@
+#Exercicio IMC
+
+#calcular o imc da pessoa 
+# o cálculo para o imc é peso / (altura/100) ** 2
+
+puts 'Qual o seu peso? '
+weight = gets.chomp.to_f()
+puts 'Qual a sua altura?'
+height = gets.chomp.to_f()
+
+bmi = weight / (height/100) ** 2
+
+ 
+puts "o seu imc é de: #{bmi}"
+
+
+# fazer o Ruby mostrar qual o tipo de dado ao colocar o valor da variável
+#Dados do filme
+name1 = 'O Hobbit'
+yearLaunch = 2015
+price = 150.0
+planIncluded = false
+
+puts name1.class, yearLaunch.class, price.class, planIncluded.class
+
+
+class Chocolate
+  def eat
+    puts "That tasted great!"
+  end
+end
+
+  # outputs "5"
+  puts "hello".length
+  # To call the eat method of an instance of the Chocolate class, we would use this code:
+  
+      my_chocolate = Chocolate.new
+      my_chocolate.eat # outputs "That tasted great!"
+  # You can also call a method by using send
+  
+      "hello".send(:length) # outputs "5"
+      my_chocolate.send(:eat) # outputs "That tasted great!"
