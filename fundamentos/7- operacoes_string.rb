@@ -44,6 +44,6 @@ puts description.gsub('tempo','espaço')
 puts 'Ruby'.center(10, '-') # aqui mostra o texto centralizado no índice 10 e vai preencher com o hífen
 puts '=' * 20 # vai aparecer a quantidade de iguais multiplicado por 20
 puts description.include?('filme') # vai retornar booleano se está incluso a palavra no description
-puts 'Ruby      '.rstrip
-puts '      Ruby'.lstrip
+puts '      Ruby'.lstrip # right strip
+puts 'Ruby      '.rstrip # left strip
 puts '    Ruby    '.strip # o comando strip remove os espaços na string
