@@ -63,7 +63,8 @@ end
 puts 'Obrigado por usar o Cookbook, até logo!'
 
 
-=begin
+
+
   #puts sozinho imprime uma linha em branco
   #o gets quebra a linha, caso não queira usa-se a função .chomp no rb.
   #o while pode vir a se tornar uma estrutura de repetição infinita por não predefinir
@@ -79,11 +80,10 @@ puts 'Obrigado por usar o Cookbook, até logo!'
   #   puts receita
 
   #O hash é uma estrutura em ruby que funciona como um dicionário
-  é possível "chamar" o hash por meio de chaves{} e funciona com valores, por isso,o dicionário,
-  onde dá nome e valores aos dados.
-  Ao ser feita a estrutura do hash ele será chamado por uma outra estrutura chamada symbol, por ex:
-  {nome: nome}
-  {tipo: tipo}
-  dentro do array tem o hash -> [:nome] essa estrutura (:exemplo) é chamada de symbol
-  ps:. O hash e o symbol trabalham muito bem juntos. 
-=end
+  # é possível "chamar" o hash por meio de chaves{} e funciona com valores, por isso,o dicionário,
+  # onde dá nome e valores aos dados.
+  # Ao ser feita a estrutura do hash ele será chamado por uma outra estrutura chamada symbol, por ex:
+  # {nome: nome}
+  # {tipo: tipo}
+  # dentro do array tem o hash -> [:nome] essa estrutura (:exemplo) é chamada de symbol
+  # ps:. O hash e o symbol trabalham muito bem juntos. 

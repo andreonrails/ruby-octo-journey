@@ -10,7 +10,8 @@
 # puts "O seu IMC é de: #{div} "
 
 =begin
-#a forma feito acima não estava completamente errada, o problema foi declarar a variável altura e peso ao invés de height e weight
+#a forma feito acima não estava completamente errada, o problema foi declarar 
+#a variável altura e peso ao invés de height e weight
 # possui alguns erros, mas a base até estava correto na primeira vez
 =end 
 
