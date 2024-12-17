@@ -40,7 +40,7 @@ def imprimir_receitas(receitas)
   puts
   if receitas.empty?
     puts 'Nenhuma receita cadastrada'
-end
+  end
 
 bem_vindo()
 
@@ -61,7 +61,7 @@ while(opcao != SAIR) do
   opcao = menu()
 end
 puts 'Obrigado por usar o Cookbook, até logo!'
-
+end
 
 
 
